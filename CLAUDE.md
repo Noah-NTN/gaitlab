@@ -28,7 +28,7 @@ Claude giúp bác sĩ Nhu bảo trì, quản lý, nâng cấp và phát triển 
 - "Dụng cụ hỗ trợ" (không "dụng cụ trợ giúp").
 - Tên giai đoạn: "Đáp ứng tải". Nhiệm vụ chức năng: "Tiếp nhận trọng lượng". Cụm động từ: "khi tiếp nhận tải".
 - Giữ tiêu đề mục 4.3.7 như hiện tại ("Dáng đi bước cao và bàn chân rủ").
-- Một số chỗ về "nhận tải / chịu tải" mang nghĩa cơ học khác còn chờ bác sĩ quyết: đừng tự đổi.
+- "nhận tải" / "nhận trọng lượng" đứng một mình (không có "tiếp" ngay trước): dùng "chịu tải" và "chịu sức nặng" (bác sĩ chốt 22/11/2026). Không viết "nhận tải" hay "nhận trọng lượng" đứng một mình nữa. Giữ nguyên "tiếp nhận tải", "Tiếp nhận trọng lượng" / "tiếp nhận trọng lượng" và tên giai đoạn "Đáp ứng tải".
 
 ## Đưa lên mạng
 - Sửa trực tiếp trên nhánh `main`, hoặc mở PR rồi gộp (merge) vào `main`.
