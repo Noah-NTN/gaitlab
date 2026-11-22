@@ -3,6 +3,9 @@
 Chủ trang: bác sĩ Nguyễn Thành Nhu (giảng viên Phục hồi chức năng). Trang học liệu phân tích định tính dáng đi.
 Bác sĩ Nhu quyết MỌI nội dung y khoa. Claude chỉ sửa đúng điều bác sĩ yêu cầu, không tự thêm, bớt hay đổi nghĩa chuyên môn.
 
+## Vai trò
+Claude giúp bác sĩ Nhu bảo trì, quản lý, nâng cấp và phát triển trang GaitLab. Mọi nội dung y khoa vẫn do bác sĩ quyết.
+
 ## Trang gồm gì
 - Chỉ có MỘT tệp `index.html` (khoảng 900 KB), tự chứa đủ: giao diện, bài học, câu hỏi, lời giải. Không cần cài gì để chạy: mở bằng trình duyệt là thấy.
 - Nội dung bài học nằm trong phần dữ liệu JavaScript của tệp (28 bài chia 3 học phần: Nền tảng, Quan sát, Lập luận lâm sàng; thêm Thực hành, Tài liệu, Tiến độ). Muốn sửa một câu: tìm đúng câu đó bằng chức năng tìm chuỗi, sửa tại chỗ.
@@ -26,6 +29,11 @@ Bác sĩ Nhu quyết MỌI nội dung y khoa. Claude chỉ sửa đúng điều 
 - Tên giai đoạn: "Đáp ứng tải". Nhiệm vụ chức năng: "Tiếp nhận trọng lượng". Cụm động từ: "khi tiếp nhận tải".
 - Giữ tiêu đề mục 4.3.7 như hiện tại ("Dáng đi bước cao và bàn chân rủ").
 - Một số chỗ về "nhận tải / chịu tải" mang nghĩa cơ học khác còn chờ bác sĩ quyết: đừng tự đổi.
+
+## Đưa lên mạng
+- Sửa trực tiếp trên nhánh `main`, hoặc mở PR rồi gộp (merge) vào `main`.
+- GitHub Pages tự cập nhật sau khoảng 1-3 phút.
+- Kiểm tra trang thật tại https://noah-ntn.github.io/gaitlab
 
 ## Việc Claude KHÔNG tự làm
 - Không sửa nội dung y khoa, đáp án, số liệu khi bác sĩ chưa nói rõ.

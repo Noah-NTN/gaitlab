@@ -2755,7 +2755,7 @@ window.GAIT_CASES = [
     header.innerHTML=`<div class="shell header-inner">${wordmark()}<nav class="desktop-nav" aria-label="Điều hướng chính">${links}</nav><div class="header-end"><a class="progress-link ${selected==='tien-do'?'here':''}" href="#/tien-do"${selected==='tien-do'?' aria-current="page"':''}>${icon('chart',17)}<span>Tiến độ học</span></a><button id="menu-toggle" class="mobile-toggle" aria-expanded="${menuOpen}" aria-controls="mobile-nav" aria-label="${menuOpen?'Đóng':'Mở'} trình đơn">${icon(menuOpen?'close':'menu',22)}</button></div></div><nav id="mobile-nav" class="mobile-nav" aria-label="Điều hướng di động" ${menuOpen?'':'hidden'}>${links}</nav>`;
   }
   const footer=document.getElementById('footer');
-  footer.innerHTML=`<div class="shell footer-inner"><div>${wordmark()}<span class="footer-description">Học liệu dành cho bác sĩ phục hồi chức năng</span></div><a href="#/tai-lieu">Tài liệu tham khảo ${icon('external',15)}</a></div>`;
+  footer.innerHTML=`<div class="shell footer-inner"><div>${wordmark()}<span class="footer-description">Học liệu dành cho bác sĩ phục hồi chức năng</span><small class="footer-updated" style="font-size:11px;opacity:.75">Cập nhật: 22/11/2026</small></div><a href="#/tai-lieu">Tài liệu tham khảo ${icon('external',15)}</a></div>`;
   function saveButton(m,s) {
     const saved=s.saved.includes(m.id);
     return `<button type="button" class="save-card ${saved?'is-saved':''}" data-save="${m.id}" aria-label="${saved?'Bỏ lưu':'Lưu'} học phần ${esc(m.title)}" title="${saved?'Bỏ lưu học phần':'Lưu học phần'}" aria-pressed="${saved}">${icon('bookmark',17)}</button>`;
