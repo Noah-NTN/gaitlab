@@ -29,7 +29,7 @@ Claude giúp bác sĩ Nhu bảo trì, quản lý, nâng cấp và phát triển 
 - Tên giai đoạn: "Đáp ứng tải". Nhiệm vụ chức năng: "Tiếp nhận trọng lượng". Cụm động từ: "khi tiếp nhận tải".
 - Giữ tiêu đề mục 4.3.7 như hiện tại ("Dáng đi bước cao và bàn chân rủ").
 - "nhận tải" / "nhận trọng lượng" đứng một mình (không có "tiếp" ngay trước): dùng "chịu tải" và "chịu sức nặng" (bác sĩ chốt 22/11/2026). Không viết "nhận tải" hay "nhận trọng lượng" đứng một mình nữa. Giữ nguyên "tiếp nhận tải", "Tiếp nhận trọng lượng" / "tiếp nhận trọng lượng" và tên giai đoạn "Đáp ứng tải".
-- Gập khớp (bác sĩ chốt 22/11/2026): dùng "gập" (gập gối, gập háng), không "gấp". "Gập mặt lòng bàn chân" (không "gấp gan chân"); "gập mặt lưng bàn chân" (không "gấp mu"). Viết "gập mặt lưng bàn chân", không "gập mặt lưng bàn chân cổ chân". Từ khoá tìm kiếm (trường `terms`) vẫn giữ chữ cũ để người học gõ kiểu cũ vẫn tìm thấy.
+- Gập khớp (bác sĩ chốt 22/11/2026): dùng "gập" (gập gối, gập háng), không "gấp". "Gập mặt lòng bàn chân" (không "gấp gan chân"); "gập mặt lưng bàn chân" (không "gấp mu"). Viết "gập mặt lưng bàn chân", không "gập mặt lưng bàn chân cổ chân". Khi chủ ngữ đã là "cổ chân" hoặc "bàn chân" thì bỏ "bàn chân" ở cuối cho tự nhiên: "cổ chân vẫn gập mặt lòng", "cổ chân ở tư thế gập mặt lòng", "cổ chân gập mặt lưng chủ động". Từ khoá tìm kiếm (trường `terms`) vẫn giữ chữ cũ để người học gõ kiểu cũ vẫn tìm thấy.
 - "Cơ tam đầu đùi" (không "cơ gân kheo").
 - "Mặt phẳng đứng dọc" (không "mặt phẳng dọc").
 - "Nghiệm pháp khám" (không "phép khám"); "vận động bù trừ" (không "động tác bù", "chuyển động bù trừ").
