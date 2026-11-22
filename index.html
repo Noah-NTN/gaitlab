@@ -221,23 +221,23 @@ window.GAIT_CONTENT = {
           question: "Chân trái vừa chạm sàn, các ngón chân phải vẫn còn trên sàn ở phía sau. Chân phải ở giai đoạn nào?",
           options: ["Cuối thì trụ", "Tiền đu", "Đầu thì đu"],
           correct: 1,
-          explanation: "Tiếp xúc ban đầu của chân trái đánh dấu lúc chân phải vào tiền đu. Chân phải chuyển sang giai đoạn đầu thì đu ngay khi bàn chân phải rời sàn.",
+          explanation: "Khi chân trái chạm sàn (tiếp xúc ban đầu), chân phải bắt đầu tiền đu. Chân phải chỉ sang đầu thì đu khi bàn chân phải rời sàn hẳn.",
           refs: ["perry", "normal"]
         },
         {
           id: "thong-so-buoc-di",
           title: "Thông số thời gian và không gian",
-          objective: "Phân biệt chiều dài bước, chiều dài sải bước, nhịp bước và tốc độ đi.",
+          objective: "Phân biệt chiều dài bước, chiều dài sải chân, nhịp bước và tốc độ đi.",
           sections: [
             { title: "Đo khoảng cách theo hướng đi", body: "Chiều dài bước phải là khoảng cách theo hướng tiến từ điểm đặt chân trái đến điểm đặt chân phải kế tiếp, dùng cùng một mốc trên mỗi bàn chân. Chiều dài sải chân bên phải là khoảng cách theo hướng đi giữa hai vị trí đặt chân phải liên tiếp, tính theo cùng một mốc trên bàn chân. Khi hai bên không đối xứng, hãy ghi riêng chiều dài bước trái và phải." },
             { title: "Khi một bên bước ngắn hơn", body: "Gọi tên bước theo chân vừa đặt xuống. Nếu bước trái ngắn hơn, xem lại cả lúc chân phải tiếp nhận tải lẫn lúc chân trái tiến ra trước. Ở người liệt nửa người, lực đẩy giảm bên liệt có thể đi kèm bước ngắn hơn ở bên đối diện. So sánh vài cặp bước cùng tốc độ, ghi riêng khoảng cách và thời gian trụ mỗi bên." },
             { title: "Đếm bước, đo thời gian", body: "Nhịp bước là số bước trong một phút. Để tính tốc độ đi, lấy chiều dài đoạn đường (m) chia cho thời gian người bệnh đi hết đoạn đó (s). Để theo dõi một người qua nhiều lần khám, cần ghi hướng dẫn về tốc độ, dụng cụ hỗ trợ và đoạn đường thực sự được bấm giờ." }
           ],
-          task: "Đánh dấu ba vị trí đặt gót theo thứ tự trái, phải, trái. Chỉ ra đoạn tương ứng với bước phải, bước trái và sải trái. Sau đó xác định thông tin còn thiếu để tính tốc độ đi.",
-          question: "Khoảng cách theo hướng tiến giữa hai điểm tiếp xúc liên tiếp của cùng gót phải biểu thị thông số nào?",
-          options: ["Chiều dài bước trái", "Chiều rộng bước", "Chiều dài sải bước phải"],
+          task: "Đánh dấu ba vị trí đặt gót theo thứ tự trái, phải, trái. Chỉ ra đoạn tương ứng với bước phải, bước trái và sải chân trái. Sau đó xác định thông tin còn thiếu để tính tốc độ đi.",
+          question: "Gót phải chạm sàn hai lần liên tiếp. Khoảng cách giữa hai lần đó, đo theo hướng đi, gọi là gì?",
+          options: ["Chiều dài bước trái", "Chiều rộng bước", "Chiều dài sải chân phải"],
           correct: 2,
-          explanation: "Hai lần đặt cùng một chân giới hạn một sải. Trong một sải có một bước trái và một bước phải.",
+          explanation: "Từ lần đặt chân này đến lần đặt kế tiếp của cùng một chân là một sải chân. Mỗi sải chân gồm một bước trái và một bước phải.",
           refs: ["normal", "anpt", "step-asymmetry"]
         },
         {
@@ -250,10 +250,10 @@ window.GAIT_CONTENT = {
             { title: "Đọc góc khớp và hoạt động cơ", body: "Góc khớp trong các bài là góc ở mặt phẳng dọc. Gối duỗi thẳng được quy ước gần 0°. Ở cổ chân, vị trí trung tính 0° tương ứng với bàn chân gần vuông góc với cẳng chân. Hãy chọn cùng mốc tiếp xúc sàn và chú ý tốc độ đi khi đối chiếu hai lượt. Video giúp mô tả chuyển động. Nếu mục tiêu lâm sàng là xác định thời điểm cơ hoạt hóa, có thể đối chiếu bằng điện cơ động." }
           ],
           task: "Chỉ theo dõi gối ở góc nhìn bên. So sánh vai trò của gấp gối ngay sau chạm sàn với vai trò của gấp gối ngay sau rời sàn.",
-          question: "Tại sao gấp gối ở đầu thì đu góp phần giúp mũi chân thoát sàn?",
-          options: ["Làm ngắn chi đang đu về mặt chức năng", "Tăng thời gian chống hai chân", "Đưa gót chân trụ rời sàn sớm hơn"],
+          question: "Ở đầu thì đu, gấp gối giúp mũi chân thoát sàn bằng cách nào?",
+          options: ["Làm chân đang đu ngắn lại về mặt chức năng", "Tăng thời gian chống hai chân", "Đưa gót chân trụ rời sàn sớm hơn"],
           correct: 0,
-          explanation: "Gấp gối đưa cẳng chân về phía sau đùi, giúp bàn chân đang đu có khoảng hở với mặt sàn. Tư thế háng và cổ chân cũng ảnh hưởng khoảng hở này.",
+          explanation: "Khi gối gấp, cẳng chân gập về phía sau đùi nên bàn chân được nâng khỏi mặt sàn. Tư thế háng và cổ chân cũng ảnh hưởng đến khoảng hở thoát sàn.",
           refs: ["perry", "normal", "hall-hip", "hall-knee", "anpt-gait", "speed", "baker", "krajewski"]
         },
         {
@@ -266,10 +266,10 @@ window.GAIT_CONTENT = {
             { title: "Nhìn trước và sau để so hai bên", body: "Góc trước hoặc sau phù hợp để theo dõi độ nghiêng khung chậu, hướng nghiêng thân và khoảng cách ngang giữa hai bàn chân. Hướng mũi chân cho biết hướng đặt bàn chân. Để xác định xoay ở khớp nào trong mặt phẳng ngang, cần thêm góc nhìn, thăm khám hoặc phân tích ba chiều." }
           ],
           task: "Chọn góc quay cho hai câu hỏi riêng biệt. Gối có duỗi quá mức ở giữa thì trụ không? Nửa chậu đối bên có hạ khi người bệnh trụ một chân không?",
-          question: "Góc nhìn nào thuận lợi nhất để nhận ra nửa chậu trái hạ xuống khi chân phải đang trụ?",
-          options: ["Góc bên phải, chỉ lấy bàn chân", "Góc sau, thấy đồng thời hai bên chậu", "Góc bên trái, chỉ lấy gối trái"],
+          question: "Muốn thấy nửa chậu trái hạ xuống khi chân phải đang trụ, nên quay từ góc nào?",
+          options: ["Bên phải, chỉ quay bàn chân", "Phía sau, thấy cả hai bên chậu", "Bên trái, chỉ quay gối trái"],
           correct: 1,
-          explanation: "Góc sau cho thấy cùng lúc hai bên chậu và chân chịu tải, giúp xác định bên hạ chậu trong mặt phẳng trán.",
+          explanation: "Nhìn từ phía sau thấy cùng lúc hai bên chậu và chân chịu tải, nên dễ biết bên nào hạ chậu (mặt phẳng trán).",
           refs: ["video", "gait-tool", "pirker", "foot-exam"]
         },
         {
@@ -742,10 +742,10 @@ window.GAIT_CONTENT = {
             { title: "Giữ trọn cơ thể trong khung hình", body: "Ghi góc bên ở giữa đoạn đi thẳng, với trục máy hướng vuông góc đường đi. Ghi thêm góc trước và sau khi người bệnh đi về phía máy và đi xa máy. Xem toàn lượt ở tốc độ thật để nhận xét nhịp chung, sau đó xem chậm tại sự kiện cần phân tích. Dùng các điều kiện tương đương khi so sánh hai lần khám." }
           ],
           task: "Lập kế hoạch ghi hình cho dấu hiệu mũi chân quệt sàn. Chọn vị trí máy để nhìn đồng thời gối và bàn chân, rồi ghi những điều kiện cần giữ giống nhau ở lần đánh giá tiếp theo.",
-          question: "Khi mục tiêu là so sánh hai lần khám, thay đổi nào dễ gây nhầm khi diễn giải kết quả?",
-          options: ["Ghi cả góc trước và sau ở hai lần", "Ghi lại loại nẹp ở mỗi lần", "Một lần đi tốc độ thoải mái, lần sau yêu cầu đi nhanh nhất"],
+          question: "Khi so sánh hai lần khám, cách làm nào dễ khiến hiểu sai kết quả?",
+          options: ["Cả hai lần đều quay góc trước và góc sau", "Lần nào cũng ghi loại nẹp đang dùng", "Lần đầu đi tốc độ thoải mái, lần sau yêu cầu đi nhanh nhất"],
           correct: 2,
-          explanation: "Thay đổi yêu cầu về tốc độ có thể làm thay đổi thông số bước và chuyển động khớp. Cần giữ cùng hướng dẫn hoặc ghi rõ điều kiện mới.",
+          explanation: "Đổi yêu cầu tốc độ có thể làm thay đổi thông số bước và chuyển động khớp. Hai lần khám nên dùng cùng một lời hướng dẫn; nếu phải đổi thì ghi rõ điều kiện mới.",
           refs: ["gait-tool", "video", "anpt", "gmc", "bensoussan"]
         },
         {
@@ -759,10 +759,10 @@ window.GAIT_CONTENT = {
             { title: "Xác định giai đoạn xảy ra sai lệch", body: "Dừng ở thời điểm chân đối bên vừa rời sàn để nhận diện lúc bắt đầu trụ một chân. Theo dõi gối chân trụ, vị trí thân và hai bên chậu cho đến khi chân đối bên chạm sàn. Nếu gối duỗi quá mức, ghi rõ bên nào, ở thời điểm nào và dấu hiệu này có lặp lại ở các bước sau hay không." }
           ],
           task: "Theo một chân qua thì trụ. Chọn một dấu hiệu ở bàn chân, một dấu hiệu ở gối và một dấu hiệu ở chậu. Với mỗi dấu hiệu, ghi mốc tiếp xúc của chân đối bên giúp xác định giai đoạn.",
-          question: "Phát hiện nào mô tả trực tiếp gối trong thì trụ?",
-          options: ["Gối phải duỗi quá mức khi thân tiến qua bàn chân phải đang tì", "Cơ tứ đầu phải yếu", "Cơ dép phải co cứng"],
+          question: "Câu nào mô tả trực tiếp điều nhìn thấy ở gối trong thì trụ?",
+          options: ["Gối phải duỗi quá mức khi thân người tiến qua bàn chân phải đang tì sàn", "Cơ tứ đầu phải yếu", "Cơ dép phải co cứng"],
           correct: 0,
-          explanation: "Hướng chuyển động của gối và thời điểm xảy ra có thể quan sát trên hình. Sức cơ và trương lực cần được đánh giá riêng khi tìm nguyên nhân.",
+          explanation: "Hướng cử động của gối và thời điểm xảy ra đều thấy được trên video. Còn sức cơ và trương lực thì phải khám riêng khi tìm nguyên nhân.",
           refs: ["perry", "normal", "abnormal", "gait-tool"]
         },
         {
@@ -777,10 +777,10 @@ window.GAIT_CONTENT = {
             { title: "Xem thêm khung chậu và chân trụ", body: "Từ phía trước hoặc sau, quan sát xem nửa chậu bên đu có nâng lên hoặc bàn chân có đi theo cung ra ngoài hay không. Người bệnh cũng có thể nhón gót bên trụ để nâng cơ thể. Các dấu hiệu này gợi ý cách tạo khoảng hở cho bàn chân. Cần xem lại các khớp bên đu để tìm yếu tố liên quan." }
           ],
           task: "Ở đầu thì đu, lần lượt theo dõi gối, cổ chân và chậu cùng bên. Viết một câu mô tả đường đi của bàn chân và một câu nêu thông tin cần khám thêm.",
-          question: "Nếu bàn chân đi theo cung ra ngoài trong thì đu, yếu tố nào nên được quan sát thêm để giải thích khả năng thoát sàn?",
-          options: ["Chỉ chiều dài bước của chân đối bên", "Mức gấp gối và tư thế cổ chân bên đu", "Chỉ hướng nhìn của người bệnh"],
+          question: "Trong thì đu, bàn chân đi vòng ra ngoài. Muốn giải thích khả năng thoát sàn, nên quan sát thêm gì?",
+          options: ["Chỉ chiều dài bước của chân đối bên", "Gối gấp bao nhiêu và cổ chân ở tư thế nào, ở bên đang đu", "Chỉ hướng nhìn của người bệnh"],
           correct: 1,
-          explanation: "Giảm gấp gối hoặc bàn chân giữ ở tư thế gấp gan chân đều có thể làm giảm khoảng hở. Đưa chân theo cung ra ngoài là một chiến lược có thể đi kèm.",
+          explanation: "Gối gấp ít, hoặc bàn chân bị giữ ở tư thế gấp gan chân, đều có thể làm giảm khoảng hở thoát sàn. Đưa chân vòng ra ngoài là một chiến lược có thể đi kèm.",
           refs: ["krajewski", "perry", "abnormal", "utah-video"]
         },
         {
@@ -796,7 +796,7 @@ window.GAIT_CONTENT = {
           question: "Nhận xét nào dễ kiểm tra lại trên cùng một video nhất?",
           options: ["Dáng đi trái bất thường mức vừa", "Khả năng kiểm soát vận động kém", "Ở giữa thì đu trái, mũi giày trái quệt sàn"],
           correct: 2,
-          explanation: "Bên, thời điểm và mốc tiếp xúc đều được xác định. Hai người đánh giá có thể xác định lại đúng dấu hiệu đó và đối chiếu nhận xét.",
+          explanation: "Câu này nêu rõ bên, thời điểm và mốc tiếp xúc. Nhờ vậy, người đánh giá khác có thể tìm lại đúng dấu hiệu đó trên video để đối chiếu.",
           refs: ["gait-tool", "takeda", "bensoussan", "pirker"]
         }
       ]
@@ -841,14 +841,14 @@ window.GAIT_CONTENT = {
           ],
           task: "Trong ca “Mũi giày sát sàn”, viết hai câu. Câu đầu mô tả đường đi của bàn chân phải và giai đoạn xảy ra. Câu sau giải thích động tác nào có thể giúp tránh quệt sàn và nêu một phép khám để kiểm tra giả thuyết.",
           practiceCase: "mui-chan",
-          question: "Gối phải gấp ít và nửa chậu phải nâng ở đầu thì đu. Khi khám, có thể đưa cổ chân phải thụ động về trung tính. Nhận định nào phù hợp nhất?",
+          question: "Ở đầu thì đu, gối phải gấp ít và nửa chậu phải nâng lên. Khi khám, người khám đưa thụ động được cổ chân phải về trung tính. Nhận định nào hợp lý nhất?",
           options: [
-            "Tầm gấp mu thụ động đến trung tính đủ để loại trừ thiếu gấp mu chủ động khi đi.",
-            "Nâng chậu có thể giúp chân phải thoát sàn. Cần xem cả gấp gối và gấp mu chủ động trong thì đu.",
-            "Nâng chậu là nguyên nhân làm gối gấp ít vì hai dấu hiệu xuất hiện trong cùng một bước."
+            "Cổ chân đưa thụ động về trung tính được, vậy khi đi chắc chắn không thiếu gấp mu chủ động.",
+            "Nâng chậu có thể giúp chân phải thoát sàn. Cần xem thêm gối gấp và cổ chân gấp mu chủ động thế nào trong thì đu.",
+            "Nâng chậu làm gối gấp ít, vì hai dấu hiệu xuất hiện trong cùng một bước."
           ],
           correct: 1,
-          explanation: "Tầm thụ động cho biết người khám có thể đưa cổ chân đến đâu. Muốn giải thích khoảng hở thoát sàn, cần xem người bệnh tự gấp mu thế nào, gối gấp được bao nhiêu và chậu nâng vào lúc nào.",
+          explanation: "Tầm thụ động chỉ cho biết người khám đưa cổ chân đến đâu được. Muốn giải thích khoảng hở thoát sàn, cần xem người bệnh tự gấp mu được thế nào, gối gấp được bao nhiêu và chậu nâng vào lúc nào.",
           handout: {
             title: "Bất thường và cơ chế bù trừ trong chu kỳ đi",
             locator: "Bản hiệu đính chuyên môn 2026. Mục 1.1 và 6.2 về lập luận, mục 2.3.3 về gối duỗi quá mức, mục 3.1.2 và 3.2.1 về khoảng hở thoát sàn, mục 5.2 về thăm khám."
@@ -865,9 +865,9 @@ window.GAIT_CONTENT = {
           ],
           task: "Từ phát hiện “giảm gấp gối bên liệt ở thì đu”, chọn một sự kiện cần xem lại ở tiền đu và một phép đo giúp phân biệt giảm lực đẩy với hoạt động cơ duỗi gối bất thường.",
           question: "Thấy gối bên liệt gấp ít trong thì đu. Bước lập luận nào phù hợp nhất?",
-          options: ["Quy ngay cho co cứng cơ thẳng đùi", "Xem lại lúc chân chuyển từ thì trụ sang thì đu, rồi đối chiếu những gì thấy trên video với kết quả thăm khám và các số đo.", "Quy ngay cho co rút gối cố định"],
+          options: ["Quy ngay cho co cứng cơ thẳng đùi", "Xem lại lúc chân chuyển từ thì trụ sang thì đu, rồi đối chiếu video với kết quả khám và số đo.", "Quy ngay cho co rút gối cố định"],
           correct: 1,
-          explanation: "Cùng một biểu hiện có thể đi kèm nhiều cơ chế. Xem lại giai đoạn trước giúp nhận ra vấn đề chuyển tải hoặc tạo đà và định hướng phép khám tiếp theo.",
+          explanation: "Cùng một biểu hiện có thể do nhiều cơ chế. Xem lại giai đoạn ngay trước đó giúp nhận ra vấn đề chuyển tải hoặc tạo đà, từ đó chọn phép khám tiếp theo.",
           refs: ["krajewski", "abnormal", "baker"]
         },
         {
@@ -879,10 +879,10 @@ window.GAIT_CONTENT = {
             { title: "Gọi tên cả bên trụ lẫn bên hạ chậu", body: "Ở kiểu Trendelenburg, nửa chậu đối bên hạ rõ trong lúc trụ một chân. Khi trụ phải và chậu trái hạ, hãy xem xét chức năng dạng háng phải. Thân có thể nghiêng về bên phải để giảm tải lên nhóm cơ dạng háng. Đối chiếu với đau, sức cơ và khám khớp háng trước khi kết luận cơ chế." }
           ],
           task: "Trong một lượt đi nhìn từ sau, lần lượt ghi nhận bên chân trụ, bên chậu hạ và hướng nghiêng thân. Ở lượt nhìn bên, so sánh thời gian chịu tải của hai chân.",
-          question: "Chậu trái hạ rõ khi chân phải trụ một chân. Nhóm cơ nào cần được ưu tiên đánh giá?",
+          question: "Chậu trái hạ rõ khi chống đơn chân phải. Nên ưu tiên khám nhóm cơ nào?",
           options: ["Nhóm dạng háng trái", "Nhóm gấp mu cổ chân phải", "Nhóm dạng háng phải"],
           correct: 2,
-          explanation: "Khi trụ phải, nhóm dạng háng phải góp phần giữ chậu trong mặt phẳng trán. Dấu hiệu hạ chậu trái định hướng khám bên phải và cần được đặt trong bối cảnh đau, sức cơ và cấu trúc khớp.",
+          explanation: "Khi trụ chân phải, nhóm dạng háng phải góp phần giữ chậu trong mặt phẳng trán. Vì vậy chậu trái hạ gợi ý khám bên phải, đồng thời xét thêm đau, sức cơ và cấu trúc khớp.",
           refs: ["pirker", "abnormal", "perry"]
         },
         {
@@ -895,10 +895,10 @@ window.GAIT_CONTENT = {
             { title: "Đọc kết quả cùng điều kiện đo", body: "Đặt đường cong của cùng một khớp vào đúng bên và giai đoạn. Xem tốc độ, tính lặp lại qua các bước, vị trí đặt mốc và sai số do mô mềm. Mômen khớp tổng hợp phản ánh tác động chung quanh khớp. Việc quy kết cho một cơ riêng lẻ cần thêm dữ kiện." }
           ],
           task: "Chọn dữ liệu cho hai câu hỏi. Tốc độ đi thoải mái có thay đổi qua hai lần khám không? Mômen cổ chân ở cuối thì trụ diễn biến như thế nào?",
-          question: "Để ước tính mômen gấp gan chân cổ chân trong thì trụ bằng động lực học nghịch, tổ hợp nào phù hợp nhất?",
-          options: ["Động học 3D, dữ liệu bàn lực và mô hình các đoạn cơ thể", "Nhịp bước và độ dài sải", "Video nhìn bên kèm thời gian đi 10 m"],
+          question: "Muốn ước tính mômen gấp gan chân ở cổ chân trong thì trụ bằng động lực học nghịch, cần bộ dữ liệu nào?",
+          options: ["Động học 3D, dữ liệu bàn lực và mô hình các đoạn cơ thể", "Nhịp bước và chiều dài sải chân", "Video nhìn bên kèm thời gian đi 10 m"],
           correct: 0,
-          explanation: "Động lực học nghịch kết hợp chuyển động các đoạn cơ thể với ngoại lực và thông số mô hình để ước tính mômen khớp tổng hợp.",
+          explanation: "Động lực học nghịch dùng ba thứ: chuyển động của các đoạn cơ thể, ngoại lực và thông số mô hình. Từ đó ước tính mômen khớp tổng hợp.",
           refs: ["anpt", "baker", "bensoussan"]
         }
       ]
@@ -1785,31 +1785,31 @@ window.GAIT_CASES = [
         question: 'Câu nào phù hợp nhất để ghi vào phần mô tả dáng đi?',
         options: [
           'Bàn chân phải xoay ra ngoài suốt thời gian tiếp xúc sàn.',
-          'Bàn chân phải đi theo cung ra ngoài, mũi giày sát sàn khi vượt qua chân trái.',
+          'Bàn chân phải đi vòng ra ngoài, mũi giày sát sàn khi vượt qua chân trái.',
           'Mũi giày phải tiếp xúc sàn trước gót ở đầu thì trụ.'
         ],
         correct: 1,
-        explanation: 'Đường đi của bàn chân và độ hở mũi chân là hai dấu hiệu quan sát được. Muốn mô tả góc xoay bàn chân hoặc điểm chạm sàn đầu tiên, cần quan sát thêm ở thì trụ.'
+        explanation: 'Đường đi của bàn chân và khoảng hở thoát sàn ở mũi chân là hai điều thấy được trong ca này. Còn góc xoay bàn chân hay phần nào chạm sàn trước thì phải quan sát thêm ở thì trụ mới mô tả được.'
       },
       {
-        question: 'Giả thuyết nào giải thích trực tiếp nhất vì sao mũi chân phải đi sát sàn?',
+        question: 'Vì sao mũi chân phải đi sát sàn? Giả thuyết nào giải thích trực tiếp nhất?',
         options: [
           'Gối phải gấp ít hoặc cổ chân phải gấp mu ít trong thì đu.',
-          'Bàn chân phải xoay ngoài khi tiếp đất ở bước kế tiếp.',
+          'Bàn chân phải xoay ngoài khi chạm sàn ở bước kế tiếp.',
           'Thân người nghiêng về bên phải lúc chân phải chịu trọng lượng.'
         ],
         correct: 0,
-        explanation: 'Gấp gối giúp thu ngắn chi trong thì đu. Gấp mu giúp nâng phần trước bàn chân. Quỹ đạo bàn chân vòng ra ngoài có thể đi kèm khó khăn này. Để xác định đó có phải là động tác bù, cần xem chuyển động ở từng khớp.'
+        explanation: 'Gấp gối làm chân ngắn lại khi đu; gấp mu nâng phần trước bàn chân lên. Bàn chân vòng ra ngoài có thể đi kèm khó khăn này. Muốn biết đó có phải động tác bù hay không, cần xem chuyển động ở từng khớp.'
       },
       {
         question: 'Cách nào giúp phân biệt vai trò của gối và cổ chân phải?',
         options: [
           'So sánh bề rộng bước và độ lệch ra ngoài của từng bàn chân khi nhìn từ trước.',
           'Đo tốc độ đi 10 m và đếm tổng số bước ở cùng tốc độ tự chọn.',
-          'Xem chậm từ bên ở đầu và giữa thì đu, rồi khám gấp gối và gấp mu chủ động, thụ động.'
+          'Xem chậm video nhìn bên ở đầu và giữa thì đu, rồi khám gấp gối và gấp mu cả chủ động lẫn thụ động.'
         ],
         correct: 2,
-        explanation: 'Hình nhìn bên cho thấy khớp nào gấp ít khi mũi chân sát sàn. Khám tầm vận động chủ động và thụ động giúp phân biệt hạn chế vận động khớp với khó tạo động tác chủ động.'
+        explanation: 'Video nhìn bên cho thấy khớp nào gấp ít lúc mũi chân sát sàn. Khám tầm vận động chủ động và thụ động giúp phân biệt khớp bị hạn chế với khó tự tạo động tác.'
       }
     ]
   },
@@ -1827,34 +1827,34 @@ window.GAIT_CASES = [
     videoURL: 'https://www.arthritis-uk.org/health-and-care-professionals/musculoskeletal-clinical-assessment/clinical-assessment-of-patients-with-musculoskeletal-conditions/the-musculoskeletal-examination-rems/examination-of-the-hip/',
     rounds: [
       {
-        question: 'Bên nào hạ chậu và ở thời điểm nào?',
+        question: 'Bên nào hạ chậu, vào lúc nào?',
         options: [
-          'Nửa chậu phải hạ khi trụ đơn chân phải.',
-          'Nửa chậu trái hạ khi trụ đơn chân trái.',
-          'Nửa chậu trái hạ khi trụ đơn chân phải.'
+          'Nửa chậu phải hạ khi chống đơn chân phải.',
+          'Nửa chậu trái hạ khi chống đơn chân trái.',
+          'Nửa chậu trái hạ khi chống đơn chân phải.'
         ],
         correct: 2,
-        explanation: 'Bàn chân phải đang tiếp xúc sàn còn chân trái đang ở thì đu. Chính ở thời điểm này, mào chậu trái thấp hơn mào chậu phải rõ rệt.'
+        explanation: 'Lúc này chỉ bàn chân phải chạm sàn, chân trái đang đu, và mào chậu trái thấp hơn rõ so với mào chậu phải.'
       },
       {
-        question: 'Cơ chế nào cần kiểm tra trước với kiểu hạ chậu này?',
+        question: 'Với kiểu hạ chậu này, nên kiểm tra cơ chế nào trước?',
         options: [
-          'Khả năng nâng bàn chân của nhóm gấp mu cổ chân trái trong thì đu.',
-          'Khả năng ổn định chậu của nhóm cơ dạng háng phải khi chịu trọng lượng.',
-          'Khả năng kiểm soát gấp gối trái khi chân trái tiếp nhận trọng lượng.'
+          'Nhóm gấp mu cổ chân trái nâng bàn chân trong thì đu.',
+          'Nhóm dạng háng phải giữ vững chậu khi chịu trọng lượng.',
+          'Gối trái kiểm soát độ gấp khi chân trái tiếp nhận trọng lượng.'
         ],
         correct: 1,
-        explanation: 'Cơ dạng háng của bên trụ giúp giữ chậu khi chân đối bên rời sàn. Hạ chậu trái rõ khi trụ phải gợi ý kiểm tra cơ chế dạng háng phải. Đau hoặc các thay đổi cơ học tại háng cũng có thể ảnh hưởng đến kết quả.'
+        explanation: 'Cơ dạng háng bên trụ giữ chậu khi chân đối bên rời sàn. Chậu trái hạ rõ khi trụ phải nên gợi ý kiểm tra cơ dạng háng phải. Đau hoặc thay đổi cơ học tại háng cũng có thể ảnh hưởng đến kết quả.'
       },
       {
-        question: 'Nếu người bệnh có thể đứng một chân an toàn, nên kiểm chứng giả thuyết như thế nào?',
+        question: 'Nếu người bệnh đứng một chân được an toàn, nên kiểm chứng giả thuyết thế nào?',
         options: [
           'So độ cao hai mào chậu khi lần lượt đứng từng chân, thử sức dạng háng hai bên và ghi nhận đau.',
           'So chiều dài hai chi ở tư thế nằm rồi đo bề rộng bước khi đi.',
           'So góc xoay của hai bàn chân khi đi rồi khám tầm xoay háng thụ động.'
         ],
         correct: 0,
-        explanation: 'Đứng một chân giúp tái hiện điều kiện trụ đơn. Kết hợp quan sát chậu, thử sức dạng háng có đối kháng và hỏi đau giúp đánh giá vì sao bên phải kiểm soát chậu kém khi tiếp nhận tải.'
+        explanation: 'Đứng một chân tái hiện lúc chống đơn khi đi. Vừa nhìn chậu, vừa thử sức dạng háng có đối kháng và hỏi đau sẽ giúp tìm ra vì sao bên phải giữ chậu kém khi tiếp nhận tải.'
       }
     ]
   },
@@ -1872,14 +1872,14 @@ window.GAIT_CASES = [
     videoURL: '',
     rounds: [
       {
-        question: 'Dựa vào hai dải màu trên biểu đồ, bạn có thể kết luận điều gì?',
+        question: 'Từ hai dải màu trên biểu đồ, có thể kết luận gì?',
         options: [
           'Thời gian trụ trái ngắn hơn thời gian trụ phải.',
           'Chiều dài bước trái ngắn hơn chiều dài bước phải.',
           'Đỉnh lực tác dụng lên bàn chân trái thấp hơn bên phải.'
         ],
         correct: 0,
-        explanation: 'Chân trái tiếp xúc sàn trong 55 đơn vị, chân phải trong 65 đơn vị. Muốn so chiều dài bước cần thêm vị trí đặt chân. Muốn so đỉnh lực cần đo lực.'
+        explanation: 'Chân trái chạm sàn 55 đơn vị (từ 0 đến 55), chân phải 65 đơn vị (từ 45 đến 110). Muốn so chiều dài bước thì cần biết vị trí đặt chân; muốn so đỉnh lực thì phải đo lực.'
       },
       {
         question: 'Giả thuyết nào phù hợp nhất với cả biểu đồ và lời kể của người bệnh?',
@@ -1889,17 +1889,17 @@ window.GAIT_CASES = [
           'Người bệnh rút ngắn thời gian tì chân trái để tránh đau khi tiếp nhận tải.'
         ],
         correct: 2,
-        explanation: 'Đau xuất hiện khi tiếp nhận tải và thời gian trụ ngắn hơn ở cùng bên gợi ý dáng đi chống đau. Để xác định cấu trúc gây đau, cần khai thác bệnh sử và khám vùng có triệu chứng.'
+        explanation: 'Đau khi tiếp nhận tải, cộng với thời gian trụ bên đó ngắn hơn, gợi ý dáng đi chống đau. Muốn biết cấu trúc nào gây đau, cần hỏi bệnh sử và khám vùng có triệu chứng.'
       },
       {
-        question: 'Bước tiếp theo nào làm rõ nhất mối liên hệ giữa đau và thì trụ trái?',
+        question: 'Bước tiếp theo nào giúp làm rõ nhất đau có liên quan đến thì trụ trái hay không?',
         options: [
           'Đo tốc độ trung bình và nhịp bước qua nhiều lượt đi ở cùng điều kiện.',
           'Hỏi vị trí đau và lúc đau nhất trong bước, đối chiếu khi quan sát rồi khám vùng đau.',
           'So độ cao của hai mào chậu khi đứng hai chân và đo chiều dài chi.'
         ],
         correct: 1,
-        explanation: 'Hỏi người bệnh chỉ vị trí đau và mô tả đau lúc tiếp nhận tải hay lúc nhấc gót. Ghi nhận điểm đau và tầm vận động khi khám vùng liên quan để định hướng nguồn đau.'
+        explanation: 'Cho người bệnh chỉ chỗ đau và cho biết đau lúc tiếp nhận tải hay lúc nhấc gót. Kết hợp thêm điểm đau và tầm vận động khi khám vùng liên quan sẽ giúp định hướng nguồn đau.'
       }
     ]
   }
