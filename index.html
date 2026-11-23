@@ -700,7 +700,7 @@ window.GAIT_CONTENT = {
             {
               "joint": "Cổ chân",
               "angle": "Cổ chân giữ gần trung tính, khoảng 0°, ngay trước khi bàn chân chạm sàn.",
-              "muscle": "Khi đi trên nền phẳng, các cơ gập mặt lưng bàn chân giữ tư thế bàn chân để gót có thể chạm sàn đầu tiên."
+              "muscle": "Khi đi trên sàn phẳng, các cơ gập mặt lưng bàn chân giữ tư thế bàn chân để gót có thể chạm sàn đầu tiên."
             }
           ],
           "deviations": [
@@ -2026,7 +2026,7 @@ window.GAIT_CASES = [
 
   const sourceById = new Map(data.sources.map(source => [source.id, source]));
   const jointSources = [ ['perry', 'Góc khớp · Perry & Burnfield (RLA)'], ['hall-hip', 'Đối chiếu háng · Hall & Brody'], ['hall-knee', 'Đối chiếu gối · Hall & Brody'], ['anpt-gait', 'Đối chiếu cổ chân · ANPT'] ];
-  const referenceNote = 'Bảng trình bày các góc khớp trong mặt phẳng đứng dọc. Đây là các giá trị gần đúng ở người trưởng thành khi đi trên nền bằng phẳng. Hãy đối chiếu đúng thời điểm trong chu kỳ dáng đi và ghi tốc độ đi khi so sánh.';
+  const referenceNote = 'Bảng trình bày các góc khớp trong mặt phẳng đứng dọc. Đây là các giá trị gần đúng ở người trưởng thành khi đi trên sàn bằng phẳng. Hãy đối chiếu đúng thời điểm trong chu kỳ dáng đi và ghi tốc độ đi khi so sánh.';
   const referenceLinks = () => `<div class="angle-sources" aria-label="Nguồn góc khớp">${jointSources.map(([id, label]) => ext(sourceById.get(id).url, label, 'joint-source')).join('')}</div>`;
   const stageNumber = n => String(n + 1).padStart(2, '0');
   const modelURL = n => `#/thuc-hanh/chu-ky/${n + 1}`;
