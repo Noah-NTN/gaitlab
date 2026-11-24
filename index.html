@@ -1,12 +1,12 @@
 <!doctype html>
 <html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#0b3d6b"><title>Phân tích định tính dáng đi · GaitLab</title>
-<meta name="description" content="Học liệu phân tích định tính dáng đi cho sinh viên và giảng viên Phục hồi chức năng: chu kỳ dáng đi, quan sát có hệ thống, lập luận lâm sàng, video và ca mô phỏng.">
+<meta name="theme-color" content="#0b3d6b"><title>Phân tích định tính dáng đi · Học liệu PHCN · GaitLab</title>
+<meta name="description" content="GaitLab – Bộ môn Phục hồi chức năng, Trường Đại học Y Dược Cần Thơ. Học quan sát dáng đi theo Perry và Rancho Los Amigos qua bài học, video và ca lâm sàng.">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="vi_VN">
 <meta property="og:site_name" content="GaitLab">
-<meta property="og:title" content="Phân tích định tính dáng đi · GaitLab">
-<meta property="og:description" content="Học liệu phân tích định tính dáng đi cho sinh viên và giảng viên Phục hồi chức năng: chu kỳ dáng đi, quan sát có hệ thống, lập luận lâm sàng, video và ca mô phỏng.">
+<meta property="og:title" content="Phân tích định tính dáng đi · Học liệu PHCN · GaitLab">
+<meta property="og:description" content="GaitLab – Bộ môn Phục hồi chức năng, Trường Đại học Y Dược Cần Thơ. Học quan sát dáng đi theo Perry và Rancho Los Amigos qua bài học, video và ca lâm sàng.">
 <meta property="og:url" content="https://noah-ntn.github.io/gaitlab/">
 <link rel="canonical" href="https://noah-ntn.github.io/gaitlab/">
 <meta name="google-site-verification" content="gN1e2lzilNR73-oNXePKIw6MPN7yxnOnISLXtfvu0UY">
@@ -2923,7 +2923,7 @@ window.GAIT_CASES = [
   function page({scroll=true}={}) {
     window.GaitPractice.stop();menuOpen=false;const [part='',second,third]=path();
     const m=groups.find(m=>m.id===second),l=m?.lessons.find(l=>l.id===third||(l.slug && l.slug===third));let html='',title='';
-    if(part===''){html=home();title='Phân tích định tính dáng đi';}
+    if(part===''){html=home();title='Phân tích định tính dáng đi · Học liệu PHCN';}
     else if(part==='lo-trinh'&&!second){html=curriculum(courseFilter);title='Lộ trình học tập';}
     else if(part==='lo-trinh'&&second==='cac-giai-doan'){html=stages.directory();title='Các giai đoạn của chu kỳ dáng đi';}
     else if(part==='lo-trinh'&&m){html=modulePage(m);title=m.title;}
@@ -2936,7 +2936,7 @@ window.GAIT_CASES = [
     else if(part==='tai-lieu'){html=library();title='Tài liệu tham khảo';}
     else if(part==='tien-do'){html=progress();title='Tiến độ học của tôi';}
     else {html=missing();title='Trang chưa có';}
-    navigation(part);main.innerHTML=html;document.title=title+' · GaitLab';{const lead=main.querySelector('.page-heading p,.reader-heading p,.module-lead p');const d=(lead&&lead.textContent.trim())||'Học liệu phân tích định tính dáng đi cho sinh viên và giảng viên Phục hồi chức năng: chu kỳ dáng đi, quan sát có hệ thống, lập luận lâm sàng, video và ca mô phỏng.';const setm=(sel,v)=>{const m=document.querySelector(sel);if(m)m.setAttribute('content',v);};setm('meta[name=description]',d.slice(0,300));setm('meta[property="og:description"]',d.slice(0,300));setm('meta[property="og:title"]',document.title);}
+    navigation(part);main.innerHTML=html;document.title=title+' · GaitLab';{const lead=main.querySelector('.page-heading p,.reader-heading p,.module-lead p');const d=(lead&&lead.textContent.trim())||'GaitLab – Bộ môn Phục hồi chức năng, Trường Đại học Y Dược Cần Thơ. Học quan sát dáng đi theo Perry và Rancho Los Amigos qua bài học, video và ca lâm sàng.';const setm=(sel,v)=>{const m=document.querySelector(sel);if(m)m.setAttribute('content',v);};setm('meta[name=description]',d.slice(0,300));setm('meta[property="og:description"]',d.slice(0,300));setm('meta[property="og:title"]',document.title);}
     if(scroll){window.scrollTo({top:0,behavior:'instant'});if(page.didRender)main.focus({preventScroll:true});}page.didRender=true;
   }
   document.addEventListener('click',e=>{
