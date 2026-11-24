@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://noah-ntn.github.io/gaitlab/sitemap.xml
